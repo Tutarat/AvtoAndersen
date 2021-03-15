@@ -1,12 +1,10 @@
 package Tests;
 
 import org.junit.jupiter.api.Test;
-import page.MyAccount;
 
-public class PersonalInfo extends TestBase{
+public class TestBranch extends TestBase{
     @Test
-    public void PersonalInfoz() //throws InterruptedException{
-    {
+    public void PersonalInfo(){
         main.goTo();
         taksOne.checkPageIsCorrect1();
         avtorizationPage.inLogin("a.khusainov")
@@ -16,11 +14,6 @@ public class PersonalInfo extends TestBase{
                 .clickBurgerMenu()
                 .checkPageIsCorrectClickBurgerMenu()
                 .clickMyAccount();
-        myAccount.checkPageIsCorrectDate()
-                .checkPageIsCorrectHide()
-                .checkPageIsCorrectTitleDate()
-                .checkPageIsCorrectTitleHide();
     }
 
 }
-
