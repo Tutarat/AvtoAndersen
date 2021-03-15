@@ -5,7 +5,7 @@ import page.MyAccount;
 
 public class PersonalInfo extends TestBase{
     @Test
-    public void PersonalInfoz() //throws InterruptedException{
+    public void PersonalInfo3() //throws InterruptedException{
     {
         main.goTo();
         taksOne.checkPageIsCorrect1();
