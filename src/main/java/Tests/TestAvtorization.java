@@ -10,7 +10,7 @@ public class TestAvtorization extends TestBase {
 
 
     @Test
-    public void testAvtorization() // throws InterruptedException{
+    public void testAvtorization5() // throws InterruptedException{
     {main.goTo();
         taksOne.checkPageIsCorrect1();
         avtorizationPage.inLogin("a.khusainov")
