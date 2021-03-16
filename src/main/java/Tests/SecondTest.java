@@ -11,7 +11,7 @@ public class SecondTest extends TestBase {
     }
 
     @Test
-    public void SecondTest1(){
+    public void SecondTest2(){
 
 
     }
